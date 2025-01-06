@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Fantasy XVI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="image/FFlogo.png" alt="Final Fantasy XVI Logo">
+        <nav>
+            <a href="Story/story.html">Story</a>
+            <a href="Characters/Characters.html">Characters</a>
+            <a href="#battle">Battle</a>
+            <a href="#dlc">DLC</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Final Fantasy XVI</h1>
+        <p>The legacy of the crystals has shaped our history for long enough.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Square Enix. All rights reserved. <a href="https://www.square-enix.com" target="_blank">Official Website</a></p>
+    </footer>
+
+    <!-- Background Music Audio Element (hidden) -->
+    <audio id="background-music" loop autoplay>
+        <source src="music/Zinogre.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- JavaScript to control music -->
+    <script>
+        window.onload = function() {
+            var music = document.getElementById('background-music');
+            music.volume = 0.5; // Set initial volume (0.0 to 1.0)
+            music.play(); // Play music when the page loads
+        };
+    </script>
+</body>
+</html>
