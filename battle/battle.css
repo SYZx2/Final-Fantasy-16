@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+header {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.battle-video {
+    text-align: center;
+    padding: 20px;
+}
+
+.battle-video h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.battle-video video {
+    width: 80%;
+    max-width: 800px;
+    border: 3px solid #f39c12;
+    border-radius: 10px;
+}
+
+.video-controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.video-controls button:hover {
+    background-color: #e67e22;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
